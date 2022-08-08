@@ -209,6 +209,9 @@ footer {
   color: #514949;
   padding-bottom: 97px;
 }
+.contact-icons{
+margin-top: 20px;
+}
 
 @media screen and (max-width: 768px){
   .hero{
