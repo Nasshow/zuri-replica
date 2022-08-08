@@ -1,0 +1,244 @@
+@import url("https://db.onlinewebfonts.com/c/150037e11f159dca84bc4c04549094b6?family=Averta-Regular");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+  font-family: Averta;
+  src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Averta, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: rgba(255, 192, 203, 0.37); */
+  height: 100vh;
+  overflow-y: auto;
+  width: 100vw;
+  /* max-width: 80%;
+  margin: 0 auto; */
+}
+.hero {
+  height: 90vh;
+  background-image: url("https://zuri.team/img/hero-bg.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.logo {
+  text-align: center;
+  padding: 5% 5%;
+}
+.content {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  font-weight: 800;
+  color: #514949;
+  margin-bottom: 36px;
+}
+.dot {
+  color: #e7332b;
+}
+.head {
+  /* font-family: "Averta sans-serif"; */
+  font-size: 18px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+.inner {
+  font-family: "Averta-Regular";
+  color: #e7332b;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top:100px;
+}
+button:first-of-type {
+  padding: 11px 28px;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  justify-self: center;
+  background: red;
+  color: white;
+  border: 50;
+  border-spacing: 5%;
+  border: 1px solid red;
+  outline: none;
+}
+button:first-of-type:hover {
+  background-color: white;
+  color: red;
+}
+button:last-of-type {
+  padding: 11px 28px;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  justify-self: center;
+  background: white;
+  color: red;
+  border: 50;
+  border-spacing: 5%;
+  border: 1px solid red;
+  outline: none;
+}
+button:last-of-type:hover {
+  background-color: red;
+  color: white;
+}
+.heee {
+  text-align: center;
+  color: #e7332b;
+  font-family: "Averta-Regular";
+  margin-top:50px;
+
+}
+.other{
+  width: 100vw;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.programs {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+.cater {
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #514949;
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+.training {
+  height: auto;
+  width: 30%;
+  background-color: #fffafa;
+  padding: 61px 47px 82px 36px;
+}
+.training a {
+  text-decoration: none;
+  color: #e7332b;
+  margin-top:20px;
+}
+.logg {
+  width: 150px;
+  height: 100px;
+  background: #fff;
+  padding: 20px;
+}
+.card {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left !important;
+}
+footer {
+  margin-top: 100px;
+  
+}
+.ending {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+  padding: 20px;
+}
+.links h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #514949;
+}
+.links ul li {
+  list-style: none;
+  color: #e7332b;
+  margin-top: 10px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+.contact a {
+  text-decoration: none;
+  color: #e7332b;
+}
+.contact p{
+  font-size: 14px;
+  line-height: 20px;
+  color: #514949;
+  opacity: 0.9;
+}
+.contact ul li:first-of-type {
+  font-size: 14px;
+  line-height: 20px;
+  color: #514949;
+  opacity: 0.9;
+}
+.contact ul li:last-of-type {
+  color: #e7332b;
+  margin-top: 10px;
+  list-style: none;
+}
+.line {
+  opacity: 0.2;
+  border: 0.7px solid #514949;
+}
+.lasts{
+  display: flex;
+  justify-content:center;
+}
+.last {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-top: 32px;
+  color: #514949;
+  padding-bottom: 97px;
+}
+
+@media screen and (max-width: 768px){
+  .hero{
+    padding: 100px 20px 0px 20px;
+  }
+  .class{
+    text-align: center;
+  }
+  .btns{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .training{
+    height: auto;
+    width: auto;
+  }
+  .programs{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .ending{
+       flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+  }
+  .contact{
+    text-align: center;
+    margin-top:20px;
+  }
+}
